@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.copyfield {
+  display: flex;
+  align-items: center;
+  background-color: #2e2e2e;
+  border-radius: 5px;
+}
+.copyfield #link {
+  width: 360px;
+  padding: 12px 10px;
+  background-color: white;
+  border: 0.1px solid #2e2e2e;
+  border-radius: 5px;
+  font-size: 20px;
+  overflow-x: scroll;
+}
+.copyfield #copy-btn {
+  color: white;
+  padding: 0 20px;
+  font-size: 18px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
